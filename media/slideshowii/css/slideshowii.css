@@ -1,0 +1,412 @@
+.clear {
+	height: 0;
+	clear: both;
+}
+.sj-slideshowii .pre-text, .sj-slideshowii .post-text{
+	margin:10px 0;
+}
+.sj-slideshowii {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin: 20px 0 20px 0;
+}
+
+.sj-slideshowii a {
+	text-decoration: none;
+}
+
+.sj-slideshowii a:hover {
+	text-decoration: underline;
+}
+
+.sj-slideshowii .sl2-wrap {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-items {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sj-slideshowii .sl2-wrap.theme1 .sl2-items,.sj-slideshowii .sl2-wrap.theme3 .sl2-items
+	{
+	left: 0;
+}
+
+.sj-slideshowii .sl2-wrap.theme2 .sl2-items,.sj-slideshowii .sl2-wrap.theme4 .sl2-items
+	{
+	right: 0;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-items .sl2-item {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-items .sl2-item .sl2-image {
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	float: left;
+	overflow: hidden;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-items .sl2-item.curr .sl2-image {
+	visibility: visible;
+}
+
+.sj-slideshowii .sl2-wrap  .sl2-item .sl2-more {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 15px;
+	display: none;
+}
+
+.sj-slideshowii .sl2-wrap  .sl2-item.curr .sl2-more {
+	display: block;
+}
+
+.sj-slideshowii .sl2-wrap.theme1  .sl2-item .sl2-more,.sj-slideshowii .sl2-wrap.theme2  .sl2-item .sl2-more
+	{
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.sj-slideshowii .sl2-wrap.theme3  .sl2-item .sl2-more,.sj-slideshowii .sl2-wrap.theme5  .sl2-item .sl2-more
+	{
+	top: 20px;
+	right: 30px;
+	width: 280px;
+}
+
+.sj-slideshowii .sl2-wrap.theme4  .sl2-item .sl2-more {
+	top: 20px;
+	left: 30px;
+	width: 280px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-opacity {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+	filter: alpha(opacity =   50);
+}
+
+.sj-slideshowii .sl2-wrap.theme3  .sl2-item .sl2-more,.sj-slideshowii .sl2-wrap.theme3 .sl2-more .sl2-opacity,.sj-slideshowii .sl2-wrap.theme4  .sl2-item .sl2-more,.sj-slideshowii .sl2-wrap.theme4  .sl2-more .sl2-opacity,.sj-slideshowii .sl2-wrap.theme5  .sl2-item .sl2-more,.sj-slideshowii .sl2-wrap.theme5  .sl2-more .sl2-opacity
+	{
+	border-radius: 5px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-title {
+	position: relative;
+	padding: 10px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-title a {
+	color: #FFF;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-desc {
+	position: relative;
+	padding: 10px;
+	padding-top: 0;
+	padding-top: 5px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-readmore {
+	padding-bottom: 8px;
+	padding-right: 8px;
+	text-align: right;
+	position: relative;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-more .sl2-readmore a {
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-slide {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+.sj-slideshowii .sl2-wrap.theme1 .sl2-slide,.sj-slideshowii .sl2-wrap.theme3 .sl2-slide
+	{
+	right: 0;
+}
+
+.sj-slideshowii .sl2-wrap.theme2 .sl2-slide,.sj-slideshowii .sl2-wrap.theme4 .sl2-slide
+	{
+	left: 0;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-slide .slide-items {
+	height: 9999px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	background-color: #FFF;
+	cursor: pointer;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-bottom: 1px solid #c0c0c0;
+	width: 100%;
+	background-color: #E1E1E1;
+	color: #545454;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item.active {
+	background-color: #006699;
+	color: #FFF;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item .slide-item-inner {
+	padding: 0;
+	margin: 15px;
+	overflow: hidden;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item .slide-more {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline;
+}
+
+.sj-slideshowii .sl2-wrap.theme1 .sl2-slide .slide-items .slide-item  .slide-item-inner .slide-image,.sj-slideshowii .sl2-wrap.theme3 .sl2-slide .slide-items .slide-item  .slide-item-inner .slide-image
+	{
+	float: right;
+	margin: 0 0 5px 5px;
+	padding: 0;
+}
+
+.sj-slideshowii .sl2-wrap.theme2 .sl2-slide .slide-items .slide-item  .slide-item-inner .slide-image,.sj-slideshowii .sl2-wrap.theme4 .sl2-slide .slide-items .slide-item  .slide-item-inner .slide-image
+	{
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 0;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item .slide-title {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item .slide-desc {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: arial;
+	word-wrap: break-word;
+}
+
+.sj-slideshowii .sl2-slide .slide-items .slide-item .slide-image {
+	overflow: hidden;
+	display: inline-block;
+	border: 2px solid #545454;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control {
+	position: absolute;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #000;
+	opacity: 0.7;
+	filter: alpha(opacity =   70);
+	z-index: 400;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control.top-left {
+	top: 5px;
+	left: 5px;
+}
+
+.sj-slideshowii .sl2-wrap.theme3 .sl2-control.bottom-left {
+	bottom: 5px;
+	left: 5px;
+}
+
+.sj-slideshowii .sl2-wrap.theme2 .sl2-control.top-right {
+	top: 5px;
+	right: 5px;
+}
+
+.sj-slideshowii .sl2-wrap.theme4 .sl2-control.bottom-right {
+	bottom: 5px;
+	right: 5px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control .sl2-ctr {
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	width: 25px;
+	line-height: 30px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control .sl2-ctr.previous {
+	background: url(../img/pre.png) no-repeat scroll right center;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control .sl2-ctr.pause {
+	background: url(../img/pause.png) no-repeat scroll center center;
+	width: 30px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control .sl2-ctr.play {
+	background: url(../img/play.png) no-repeat scroll center center;
+	width: 30px;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-control .sl2-ctr.next {
+	background: url(../img/next.png) no-repeat scroll left center;
+}
+
+.sj-slideshowii .sl2-wrap .sl2-slide .sl2-slide-inner {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	z-index: 70;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .sl2-slide-inner {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	left: 50px;
+	right: 50px;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-opacity {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .sl2-slide {
+	position: absolute;
+	left: 50px;
+	right: 50px;
+	width: auto;
+	bottom: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-items {
+	background-color: transparent;
+	cursor: pointer;
+	width: 9999px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-items .slide-item {
+	cursor: pointer;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 2;
+	width: auto;
+	background-color: transparent;
+	opacity: 0.5;
+	border: none;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-items .slide-item.active
+	{
+	opacity: 1;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-items .slide-item .slide-item-inner
+	{
+	padding: 10px 2px 2px 2px;
+	margin: 0;
+}
+
+.sj-slideshowii .sl2-wrap.theme5  .sl2-slide .slide-items .slide-item .slide-image
+	{
+	border-color: #FFF;
+}
+
+.sj-slideshowii .sl2-wrap  .sl2-slide .slide-items .slide-item.active .slide-image
+	{
+	border: 2px solid #FFF;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-previous {
+	position: absolute;
+	width: 50px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: url('../img/pre_theme5.png') no-repeat scroll center
+		center;
+	cursor: pointer;
+}
+
+.sj-slideshowii .sl2-wrap.theme5 .sl2-slide .slide-next {
+	background: url('../img/next_theme5.png') no-repeat scroll center
+		center;
+	position: absolute;
+	width: 50px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}

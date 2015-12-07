@@ -1,0 +1,191 @@
+@media all and (max-width: 479px) {
+	.sj-megak2items-ii .megaii-rps04-1 .megaii-item{
+		width:100%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-2 .megaii-item{
+		width:50%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-3 .megaii-item{
+		width:33.33%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-4 .megaii-item{
+		width:25%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-5 .megaii-item{
+		width:20%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-6 .megaii-item{
+		width:16.66%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps04-1 .clr1,
+	.sj-megak2items-ii .megaii-rps04-2 .clr2,
+	.sj-megak2items-ii .megaii-rps04-3 .clr3,
+	.sj-megak2items-ii .megaii-rps04-4 .clr4,
+	.sj-megak2items-ii .megaii-rps04-5 .clr5,
+	.sj-megak2items-ii .megaii-rps04-6 .clr6{
+		clear:both;
+	}
+	
+	.sj-megak2items-ii .megaii-wrap.theme4 .megaii-tabs-wrap .megaii-label{
+		display:none;
+	}
+	
+	.sj-megak2items-ii .megaii-wrap.theme3 .megaii-header .megaii-tabs-wrap{
+		margin:0;
+		width:100%;
+		padding-top:5px;
+	}
+	
+	.sj-megak2items-ii .megaii-content .megaii-content-catwrap.content-selected .megaii-item-wrap{
+		background:none;
+	}
+		
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+	.sj-megak2items-ii .megaii-rps03-1 .megaii-item{
+		width:100%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-2 .megaii-item{
+		width:50%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-3 .megaii-item{
+		width:33.33%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-4 .megaii-item{
+		width:25%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-5 .megaii-item{
+		width:20%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-6 .megaii-item{
+		width:16.66%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps03-1 .clr1,
+	.sj-megak2items-ii .megaii-rps03-2 .clr2,
+	.sj-megak2items-ii .megaii-rps03-3 .clr3,
+	.sj-megak2items-ii .megaii-rps03-4 .clr4,
+	.sj-megak2items-ii .megaii-rps03-5 .clr5,
+	.sj-megak2items-ii .megaii-rps03-6 .clr6{
+		clear:both;
+	}
+	
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+	.sj-megak2items-ii .megaii-rps02-1 .megaii-item{
+		width:100%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-2 .megaii-item{
+		width:50%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-3 .megaii-item{
+		width:33.33%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-4 .megaii-item{
+		width:25%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-5 .megaii-item{
+		width:20%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-6 .megaii-item{
+		width:16.66%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps02-1 .clr1,
+	.sj-megak2items-ii .megaii-rps02-2 .clr2,
+	.sj-megak2items-ii .megaii-rps02-3 .clr3,
+	.sj-megak2items-ii .megaii-rps02-4 .clr4,
+	.sj-megak2items-ii .megaii-rps02-5 .clr5,
+	.sj-megak2items-ii .megaii-rps02-6 .clr6{
+		clear:both;
+	}
+	
+}
+
+@media all and (min-width: 1200px) {
+	.sj-megak2items-ii .megaii-rps01-1 .megaii-item{
+		width:100%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-2 .megaii-item{
+		width:50%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-3 .megaii-item{
+		width:33.33%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-4 .megaii-item{
+		width:25%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-5 .megaii-item{
+		width:20%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-6 .megaii-item{
+		width:16.66%;
+	}
+	
+	.sj-megak2items-ii .megaii-rps01-1 .clr1,
+	.sj-megak2items-ii .megaii-rps01-2 .clr2,
+	.sj-megak2items-ii .megaii-rps01-3 .clr3,
+	.sj-megak2items-ii .megaii-rps01-4 .clr4,
+	.sj-megak2items-ii .megaii-rps01-5 .clr5,
+	.sj-megak2items-ii .megaii-rps01-6 .clr6{
+		clear:both;
+	}
+	
+}
+
+
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-1 .megaii-item{
+		width:100%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-2 .megaii-item{
+		width:50%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-3 .megaii-item{
+		width:33.33%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-4 .megaii-item{
+		width:25%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-5 .megaii-item{
+		width:20%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-6 .megaii-item{
+		width:16.66%;
+	}
+	
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-1 .clr1,
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-2 .clr2,
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-3 .clr3,
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-4 .clr4,
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-5 .clr5,
+	.sj-megak2items-ii.lt-ie9 .megaii-rps01-6 .clr6{
+		clear:both;
+	}
